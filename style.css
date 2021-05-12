@@ -1,0 +1,29 @@
+html, body{
+    background-color: aquamarine;
+}
+
+.container {
+    width: 75%;
+    background-color: white;
+    height: 100vh;
+    margin: auto;
+}
+
+.spacer {
+    height: 7px;
+}
+
+.vid-container {
+    margin: auto;
+    /* text-align: center; */
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.vid-container iframe {
+    margin: 10%;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    /* margin: auto; */
+}
