@@ -1,21 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Scott Mai</title>
-</head>
-<body>
-    <div class="container">
-        <div id="duck"></div>
-        <div class="vid-container">
-            <iframe src="https://www.youtube.com/embed/FZUcpVmEHuk?autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Scott's Biz</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .biz-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 3rem;
+        text-align: center;
+        background-color: white;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        margin-top: 2rem;
+      }
+
+      .biz-title {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: #333;
+      }
+
+      .biz-caption {
+        font-size: 1.5rem;
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+      }
+
+      .coming-soon-btn {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        background-color: #635bff;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .coming-soon-btn:hover {
+        background-color: #4b45c6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="biz-container">
+      <h1 class="biz-title">Scott's gift finder application.</h1>
+      <p class="biz-caption">
+        Making it easier to gift digital products and subscriptions. Clearly not
+        built yet
+      </p>
+      <button class="coming-soon-btn">Stripe payment coming soon</button>
     </div>
-</body>
-<script>
-    document.querySelector('#duck').focus();
-</script>
+  </body>
 </html>
